@@ -32,13 +32,14 @@ ensure you installed
 
 
 ### Running the Application
-
-1. Start the server:
+1. Download and extract the ZIP file from the repository.
+   
+3. Start the server:
     ```sh
     node server.js
     ```
 
-2. Open a web browser and go to `http://localhost:3000`.
+3. Open a web browser and go to `http://localhost:3000`.
 
 ### Usage
 
