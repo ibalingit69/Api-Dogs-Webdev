@@ -1,0 +1,18 @@
+{
+  "name": "dogs",
+  "version": "1.0.0",
+  "description": "BreedSeeker is an interactive web application designed to help users discover different dog breeds. By integrating with The Dog API and the YouTube Data API, the application provides detailed information about various dog breeds along with related videos, offering a rich informational experience.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
