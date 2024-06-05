@@ -72,7 +72,7 @@ wss.on('connection', ws => {
           const breedResponse = await axios.get(`https://api.thedogapi.com/v1/images/search?breed_ids=${breed.id}`, {
             headers: { 'x-api-key': DOG_API_KEY }
           });
-          ws.send(JSON.stringify({ breedDog: breedResponse.data[0], breedDetails: breed })); // Send breed details and image
+          ws.send(JSON.stringify({ breedDog: breedResponse.data[0], breedDetails: breed }));
 
           const videoResponse = await axios.get('https://www.googleapis.com/youtube/v3/search', {
             params: {
