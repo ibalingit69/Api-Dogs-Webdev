@@ -11,17 +11,9 @@ BreedSeeker is an interactive web application designed to help users discover di
 - **Responsive Design:** Ensures a seamless experience across different devices and screen sizes.
 - **Animated Elements:** Includes an animated dog element to enhance user engagement.
 
-## Project Structure
-The project consists of the following key files and directories:
-- `index.html`: Contains the HTML structure of the web application.
-- `styles.css`: Includes the CSS styles for the web application.
-- `app.js`: Contains the client-side JavaScript code.
-- `server.js`: Contains the server-side code using Express.js and WebSocket.
-- `README.md`: Provides information about the project.
+
 
 ## Getting Started
-
-
 Node.js and npm installed on your machine.
 ensure you installed
 - `npm init -y`: Contains the HTML structure of the web application.
