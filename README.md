@@ -18,7 +18,6 @@ Node.js and npm installed on your machine.
 ensure you installed
 - `npm init -y`: Contains the HTML structure of the web application.
 - `npm install ws`: Includes the CSS styles for the web application.
-- `app.js`: Contains the client-side JavaScript code.
 - `npm install express`: Contains the server-side code using Express.js and WebSocket.
 - `npm install axios `: Provides information about the project.
 
@@ -26,7 +25,7 @@ ensure you installed
 ### Running the Application
 1. Download and extract the ZIP file from the repository.
    
-3. Start the server:
+3. Start the server in the server.js terminal:
     ```sh
     node server.js
     ```
